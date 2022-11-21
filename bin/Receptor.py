@@ -45,4 +45,3 @@ class Receptor(Thread):
             conn, attr = pm_socket.accept()
             connect = Thread(target=self.connection, args=(conn,))
             connect.start()
-        pm_socket.close()

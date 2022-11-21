@@ -13,6 +13,11 @@ class Database:
         # add a json to the database
         self.list.append(json)
 
+    # clearList method
+    def clearList(self):
+        # clear the json list
+        self.list.clear()
+
     # get method
     def getJson(self):
         # return the json objects and clear the queue
